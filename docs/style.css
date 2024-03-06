@@ -1,83 +1,31 @@
-/* すべての画像に適用 */
+body {
+  background-color: #f0eedd; 
+  color:gray; 
+  border-width: 3px;
+  border-color:gray;
+  border-style:solid;
+  border-radius:8%;
+  padding: 16px;
+  margin: 8px;
+}
 img {
-  border-radius: 20%;
+  border-radius: 50%;
   width: 300px;
-  height: 300PX;
+  height: 300px;
+  margin: 0 auto; /* 画像を中央に配置 */
 }
-
-/* ヘッダー画像のみ */
-.header-image {
-  width: 500px;
-  height: 500px;
-}
-
-/* about-me セクション内の画像のみ */
-.about-me img {
-  width: 100px;
-  height: 100px;
-}
-
-/* h1要素のスタイル */
 h1 {
+  border-radius: 8%;
   font-size: 40px;
-  font-weight: bold;
   text-align: center;
   background-color: #036936; /* 背景色 */
   color: #e8ecf0; /* 文字色 */
 }
-
-/* about-me セクション */
-.about-me {
-  background-color: #f2f6dd; /* 背景色 */
-  color: #5b5c5d; /* 文字色 */
-  padding: 20px;
-}
-
-/* about-me セクション内の h2 要素 */
-.about-me h2 {
+h2 {
   font-size: 32px;
-  font-weight: bold;
-  text-align: left;
-}
-
-/* about-me セクション内の h3 要素 */
-.about-me h3 {
-  font-size: 20px;
-  font-weight: normal;
-  text-align: left;
-}
-
-/* about-me セクション内の p 要素 */
-.about-me p {
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: left;
-}
-
-body {
-  background-color: #f2f6dd; /* 背景色 */
-  color: #8b9196; /* 文字色 */
-}
-/* スマホ縦画面サイズで枠を決め */
-.container {
-  width: 320px; /* 横幅 */
-  max-width: 90%; /* 画面幅の90%まで */
-  margin: 0 auto; /* 左右に等しい余白 */
-  border: 1px solid #8b9196; /* 枠線 */
-  padding: 20px; /* 内側の余白 */
-}
-
-/* スマホ縦画面で中央に配置 */
-.container h1,
-.container h2,
-.container h3,
-.container p,
-.container ul {
   text-align: center;
 }
-
-/* 画像のサイズ調整 */
-.container img {
-  max-width: 100%;
-  height: auto;
+h3 {
+  font-size: 24px;  
+  text-align: center;
 }
