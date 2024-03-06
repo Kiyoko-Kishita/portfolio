@@ -21,7 +21,7 @@ img {
 h1 {
   font-size: 40px;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
   background-color: #036936; /* 背景色 */
   color: #e8ecf0; /* 文字色 */
 }
@@ -42,7 +42,7 @@ h1 {
 
 /* about-me セクション内の h3 要素 */
 .about-me h3 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: normal;
   text-align: left;
 }
