@@ -8,8 +8,41 @@ section {
   padding: 16px;
   margin: 8px;
 }
+#cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  border: 1px solid lightgray;
+}
+
+.card:nth-child(2) {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.picture img {
+  width: 100%;
+  height: 200px;
+}
+
+.description {
+  width: 100%;
+  height: 145px;
+  padding-right: 12px;
+  padding-left: 12px;
+  box-sizing: border-box;
+}
+
+.description p {
+  font-size: 13px;
+  color: dimgray;
+}
 .header-image {
-  border-radius: 20%;
+  
   width: 300px;
   height: 300px;
   display: block;
@@ -39,4 +72,3 @@ footer{
   color:gray; 
   text-align: center;
 }
-
